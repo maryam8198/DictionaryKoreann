@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Setting.SettingFragment"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:padding="15dp"
+    android:weightSum="9"
+    >
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:src="@drawable/iconapp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/txtWords"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_margin="8dp"
+        android:text="@string/Setting_txtcolor2"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/rgword"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="مشکی"
+
+            >
+
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="سبز">
+
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="قرمز">
+
+        </RadioButton>
+    </RadioGroup>
+
+    <View
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"
+        android:background="#4516A3" />
+
+    <TextView
+        android:id="@+id/txtPronunciations"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_margin="8dp"
+        android:text="@string/Setting_txtcolor3"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <RadioGroup
+        android:id="@+id/rgpronunciation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="مشکی"
+            >
+
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="سبز">
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="قرمز">
+
+        </RadioButton>
+    </RadioGroup>
+
+    <View
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"
+        android:background="#5E35B1" />
+
+
+    <TextView
+        android:id="@+id/txtMeanss"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_margin="8dp"
+        android:text="@string/Setting_txtcolor1"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <RadioGroup
+        android:id="@+id/rgmeans"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <RadioButton
+            android:id="@+id/RbBluem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="آبی"
+            android:textColor="@color/black"
+            >
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/RbBlackm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="مشکی">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/RbRedm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="قرمز">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <View
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"
+        android:background="#5E35B1" />
+
+    <TextView
+        android:id="@+id/txtsizes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:layout_margin="12dp"
+        android:text="سایز متن"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <SeekBar
+        android:id="@+id/sksize"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:max="40"
+        android:progress="19" />
+
+
+
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="ذخیره"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+
+        />
+
+
+
+</LinearLayout>

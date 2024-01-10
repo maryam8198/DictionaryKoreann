@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    tools:context=".ui.alphabet.AlphabetFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/alphabet_Vowels"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto"/>
+
+
+            <View
+                android:layout_width = "200dp"
+                android:layout_height="0.5dp"
+                android:background="#016E62"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                >
+
+
+                <TextView
+                    android:id="@+id/txt1"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="ㅏ \n آ اَ"
+                    style="@style/text_alphabet2"
+                    />
+
+                <TextView
+                    android:id="@+id/txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅓ \n  آ اُ"
+                    style="@style/text_alphabet2"
+                    />
+
+                <TextView
+                    android:id="@+id/txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅗ \n اُ"
+                    style="@style/text_alphabet2"
+                    />
+
+                <TextView
+                    android:id="@+id/txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅜ \n  او"
+                    style="@style/text_alphabet2"
+                    />
+
+                <TextView
+                    android:id="@+id/txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅡ \n  ِإ اُ"
+                    style="@style/text_alphabet2"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                >
+
+
+                <TextView
+                    android:id="@+id/txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅣ \n ایی"
+                    style="@style/text_alphabet"
+                    />
+
+                <TextView
+                    android:id="@+id/txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅐ \n اِ"
+                    style="@style/text_alphabet"
+                    />
+
+                <TextView
+                    android:id="@+id/txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅔ  \n اِ"
+                    style="@style/text_alphabet"
+                    />
+
+                <TextView
+                    android:id="@+id/txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅑ  \n  یا"
+                    style="@style/text_alphabet"
+                    />
+
+                <TextView
+                    android:id="@+id/txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅕ \n یا"
+                    style="@style/text_alphabet"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                >
+
+
+                <TextView
+                    android:id="@+id/txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅛ \n یُ"
+                    style="@style/text_alphabet2"
+                    />
+
+                <TextView
+                    android:id="@+id/txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅠ \n یوِ"
+                    style="@style/text_alphabet2"
+                    />
+
+                <TextView
+                    android:id="@+id/txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅒ  \n یهِ"
+                    style="@style/text_alphabet2"
+                    />
+
+                <TextView
+                    android:id="@+id/txt14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅖ  \n  یه"
+                    style="@style/text_alphabet2"
+                    />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/alphabet_Silentletters"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/roboto"/>
+
+
+            <View
+                android:layout_width = "220dp"
+                android:layout_height="0.5dp"
+                android:background="#016E62"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/txt15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㄱ  \n ک گ"
+                    style="@style/text_alphabet2"
+                    />
+
+                <TextView
+                    android:id="@+id/txt16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㄴ \n ن"
+                    style="@style/text_alphabet2"
+                    />
+
+                <TextView
+                    android:id="@+id/txt17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㄷ  \n  د"
+                    style="@style/text_alphabet2"
+                    />
+
+                <TextView
+                    android:id="@+id/txt18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㄹ  \n ر ل"
+                    style="@style/text_alphabet2"
+                    />
+
+                <TextView
+                    android:id="@+id/txt19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅁ \n م "
+                    style="@style/text_alphabet2"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/txt20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅂ \n ب  پ "
+                    style="@style/text_alphabet"
+                    />
+
+                <TextView
+                    android:id="@+id/txt21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅅ \n س "
+                    style="@style/text_alphabet"
+                    />
+
+                <TextView
+                    android:id="@+id/txt22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅇ  \n نگ  "
+                    style="@style/text_alphabet"
+                    />
+
+                <TextView
+                    android:id="@+id/txt23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅈ  \n ج  "
+                    style="@style/text_alphabet"
+                    />
+
+                <TextView
+                    android:id="@+id/txt24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅊ \n چ"
+                    style="@style/text_alphabet"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                >
+
+
+                <TextView
+                    android:id="@+id/txt25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅋ \n ک"
+                    style="@style/text_alphabet2"
+                    />
+
+                <TextView
+                    android:id="@+id/txt26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅌ \n  ت"
+                    style="@style/text_alphabet2"
+                    />
+
+                <TextView
+                    android:id="@+id/txt27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅍ  \n پ "
+                    style="@style/text_alphabet2"
+                    />
+
+                <TextView
+                    android:id="@+id/txt28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅎ \n ه"
+                    style="@style/text_alphabet2"
+                    />
+                <TextView
+                    android:id="@+id/txt29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅙ \n  ِوه"
+                    style="@style/text_alphabet2"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/txt30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅚ \n اِ"
+                    style="@style/text_alphabet"
+                    />
+
+                <TextView
+                    android:id="@+id/txt31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅝ \n  وا"
+                    style="@style/text_alphabet"
+                    />
+
+                <TextView
+                    android:id="@+id/txt32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅞ  \n وِه "
+                    style="@style/text_alphabet"
+                    />
+
+                <TextView
+                    android:id="@+id/txt33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅟ \n وی"
+                    style="@style/text_alphabet"
+                    />
+                <TextView
+                    android:id="@+id/txt34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅢ \n  اویی"
+                    style="@style/text_alphabet"
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/txt35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅉ \n س ش"
+                    style="@style/text_alphabet2"
+                    />
+
+                <TextView
+                    android:id="@+id/txt36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅉ \n  ج چ "
+                    style="@style/text_alphabet2"
+                    />
+
+                <TextView
+                    android:id="@+id/txt37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅃ  \n پ "
+                    style="@style/text_alphabet2"
+                    />
+
+                <TextView
+                    android:id="@+id/txt38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㄸ \n ت"
+                    style="@style/text_alphabet2"
+                    />
+                <TextView
+                    android:id="@+id/txt39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㄲ \n  ک"
+                    style="@style/text_alphabet2"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/txt40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ㅘ \n وَِ"
+                    style="@style/text_alphabet"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

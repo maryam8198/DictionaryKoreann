@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">DictionaryKorean</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">یادگیری زبان کره ای</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">خانه</string>
+    <string name="menu_alphabet">الفبا</string>
+    <string name="menu_search">جست وجو</string>
+    <string name="menu_setting">تنظیمات</string>
+    <string name="menu_about">درباره ما</string>
+    <string name="menu_exit">خروج</string>
+
+    <string name="about_us">در این برنامه سعی شده لغات زبان کره ای به صورت دسته بندی شده در اختیار شما قرار دهیم تا با دسترسی آسان بتوانید، در هر ساعت از شبانه روز به یادگیری لغات زبان کره ای بپردازدید و یک قدم به هدفتان نزدیک تر شوید.</string>
+
+
+    <string name="Setting_txtcolor1">رنگ متن</string>
+    <string name="Setting_txtcolor2">텍스트 색상 </string>
+    <string name="Setting_txtcolor3">tegseuteu saegsang </string>
+    <string name="Setting_txtcolor4">سایز متن</string>
+    <string name="title_activity_alphabet">Alphabet</string>
+
+    <string name="alphabet_Vowels">حروف صدادار الفبای کره ای</string>
+    <string name="alphabet_Silentletters">حروف بی صدادار الفبای کره ای</string>
+    <string name="alphabet_Silent">حروف بی صدادار تشدید دار الفبای کره ای</string>
+
+    <string name="splash_titel">دیکشنری ( فارسی به کره ای)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

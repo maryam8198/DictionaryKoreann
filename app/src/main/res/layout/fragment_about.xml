@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:weightSum="5"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:src="@drawable/iconapp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:layout_margin="15dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:elegantTextHeight="true"
+        android:textAlignment="textStart"
+        android:text="@string/about_us"
+        android:fontFamily="@font/roboto"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+
+
+         <View
+         android:layout_width = "match_parent"
+         android:layout_height="1.5dp"
+         android:background="#016E62"
+         android:layout_marginRight="15dp"
+         android:layout_marginLeft="15dp"/>
+
+   <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="راه های ارتباطی"
+    android:textAlignment="textStart"
+    android:padding="8dp"
+    android:textColor="@color/black"
+       android:fontFamily="@font/roboto"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.5"
+        android:padding="10dp"
+        >
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="12dp"
+        android:background="@drawable/gmail"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/txtTelegram"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="12dp"
+        android:layout_gravity="center"
+        android:background="@drawable/telegram"
+
+        />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="منابع : "
+        android:textAlignment="textStart"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" https://fa.forvo.com/languages/ko/"
+        android:layout_margin="15dp"
+        android:elegantTextHeight="true"
+        />
+
+
+</LinearLayout>

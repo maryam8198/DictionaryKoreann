@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:label="app_bar_main"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.dictionarykoreann.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.dictionarykoreann.ui.search.SearchFragment"
+        android:label="@string/menu_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.dictionarykoreann.ui.about.about.AboutFragment"
+        android:label="@string/menu_about" />
+    <activity
+        android:id="@+id/secendAct"
+        android:name="com.example.dictionarykoreann.SecendAct"
+        tools:layout="@layout/activity_secend" />
+    <fragment
+        android:id="@+id/nav_alphabet"
+        android:name="com.example.dictionarykoreann.ui.alphabet.AlphabetFragment"
+        android:label="الفبا"
+        tools:layout="@layout/fragment_alphabet" />
+    <activity
+        android:id="@+id/splashScrean"
+        android:name="com.example.dictionarykoreann.splashScrean"
+        tools:layout="@layout/activity_splash_screan" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.dictionarykoreann.MainActivity"
+        android:label="app_bar_main"
+        tools:layout="@layout/app_bar_main" />
+</navigation>
